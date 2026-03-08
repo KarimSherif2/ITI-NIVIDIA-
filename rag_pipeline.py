@@ -14,7 +14,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_community.document_transformers import LongContextReorder
 
 VECTORSTORE_PATH = "vectorstore"
-GROQ_API_KEY     = "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"
+GROQ_API_KEY     = ""
 
 
 # ── Embeddings ─────────────────────────────────────────────────────────────────

@@ -1,0 +1,25 @@
+langchain
+langchain-community
+langchain-core
+langchain-huggingface
+langchain-ollama
+langserve[all]
+fastapi
+uvicorn[standard]
+gradio
+sentence-transformers
+faiss-cpu
+pypdf
+python-docx
+docx2txt
+numpy
+pymupdf
+pdfplumber
+
+# ── Optional ──────────────────────────────────────────────────────────────────
+# Uncomment to use OpenAI embeddings (set EMBEDDING_TYPE=openai):
+# langchain-openai
+# openai
+
+# Uncomment to use Chroma instead of FAISS (set VECTOR_STORE=chroma):
+# chromadb

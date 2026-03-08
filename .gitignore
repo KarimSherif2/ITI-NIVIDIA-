@@ -1,0 +1,6 @@
+rag_env/
+vectorstore/
+chat_history.txt
+evaluation_report.json
+__pycache__/
+*.pyc

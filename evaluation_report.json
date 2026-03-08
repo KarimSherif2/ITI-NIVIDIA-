@@ -1,0 +1,122 @@
+{
+  "document_tested": "Form 1099-MISC (Rev. January 2024)",
+  "aggregate": {
+    "pass_rate_pct": 100.0,
+    "avg_latency_s": 0.444,
+    "avg_relevance_score": 0.33,
+    "grounded_rate_pct": 100.0,
+    "avg_keyword_hit_rate": 0.9
+  },
+  "results": [
+    {
+      "question": "What is this document?",
+      "answer_preview": "This document is Form 1099-MISC, a Miscellaneous Information form used for tax purposes, specifically for reporting various types of income to the Internal Revenue Service (IRS).",
+      "latency_s": 1.007,
+      "answer_words": 26,
+      "source_count": 5,
+      "relevance_score": 0.2643,
+      "grounded": true,
+      "keyword_hit_rate": 0.5,
+      "pass": true
+    },
+    {
+      "question": "What is the form number and revision date?",
+      "answer_preview": "The form number is 1099-MISC, and the revision date is January 2024.",
+      "latency_s": 0.386,
+      "answer_words": 12,
+      "source_count": 5,
+      "relevance_score": 0.3787,
+      "grounded": true,
+      "keyword_hit_rate": 1.0,
+      "pass": true
+    },
+    {
+      "question": "What does Box 1 represent?",
+      "answer_preview": "Box 1 represents \"Rents\".",
+      "latency_s": 0.365,
+      "answer_words": 4,
+      "source_count": 5,
+      "relevance_score": 0.1477,
+      "grounded": true,
+      "keyword_hit_rate": 1.0,
+      "pass": true
+    },
+    {
+      "question": "What is reported in Box 4?",
+      "answer_preview": "Box 4 shows backup withholding or withholding on Indian gaming profits.",
+      "latency_s": 0.298,
+      "answer_words": 11,
+      "source_count": 5,
+      "relevance_score": 0.2382,
+      "grounded": true,
+      "keyword_hit_rate": 0.5,
+      "pass": true
+    },
+    {
+      "question": "What is the FATCA filing requirement on this form?",
+      "answer_preview": "Box 13 refers to the FATCA filing requirement. If the FATCA filing requirement box is checked, the payer is reporting on this Form 1099 to satisfy its account reporting requirement under chapter 4 of ...",
+      "latency_s": 0.428,
+      "answer_words": 38,
+      "source_count": 5,
+      "relevance_score": 0.3941,
+      "grounded": true,
+      "keyword_hit_rate": 1.0,
+      "pass": true
+    },
+    {
+      "question": "Where do I report royalties from this form?",
+      "answer_preview": "You should report royalties from oil, gas, or mineral properties; copyrights; and patents on Schedule E (Form 1040). However, report payments for a working interest as explained in the Schedule E (For...",
+      "latency_s": 0.463,
+      "answer_words": 56,
+      "source_count": 5,
+      "relevance_score": 0.4744,
+      "grounded": true,
+      "keyword_hit_rate": 1.0,
+      "pass": true
+    },
+    {
+      "question": "What should I do if my 1099-MISC is incorrect?",
+      "answer_preview": "If your Form 1099-MISC is incorrect or has been issued in error, you should contact the payer. If you cannot get this form corrected, attach an explanation to your tax return and report your informati...",
+      "latency_s": 0.383,
+      "answer_words": 36,
+      "source_count": 5,
+      "relevance_score": 0.5282,
+      "grounded": true,
+      "keyword_hit_rate": 1.0,
+      "pass": true
+    },
+    {
+      "question": "What is Box 10 used for?",
+      "answer_preview": "Box 10 shows gross proceeds paid to an attorney in connection with legal services. Report only the taxable part as income on your return.",
+      "latency_s": 0.342,
+      "answer_words": 24,
+      "source_count": 5,
+      "relevance_score": 0.1679,
+      "grounded": true,
+      "keyword_hit_rate": 1.0,
+      "pass": true
+    },
+    {
+      "question": "What is the OMB number on this form?",
+      "answer_preview": "1545-0115",
+      "latency_s": 0.304,
+      "answer_words": 1,
+      "source_count": 5,
+      "relevance_score": 0.397,
+      "grounded": true,
+      "keyword_hit_rate": 1.0,
+      "pass": true
+    },
+    {
+      "question": "What does Box 15 report?",
+      "answer_preview": "Box 15 shows income as a nonemployee under a nonqualified deferred compensation (NQDC) plan that does not meet the requirements of section 409A. Any amount included in box 12 that is currently taxable...",
+      "latency_s": 0.461,
+      "answer_words": 39,
+      "source_count": 5,
+      "relevance_score": 0.3093,
+      "grounded": true,
+      "keyword_hit_rate": 1.0,
+      "pass": true
+    }
+  ]
+}
